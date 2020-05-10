@@ -33,6 +33,7 @@ In the last step, we display the results in a Flask web app.
 
 ## Screenshots
 The frontpage:
+
 ![Alt text](https://github.com/eduardodsaraujo/DisasterResponsePipeline/blob/master/Screenshot1.png?raw=true"Screenshot1")
 
 By inputting a phrase, you can check its categories:
