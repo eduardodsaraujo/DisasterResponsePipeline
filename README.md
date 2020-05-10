@@ -1,16 +1,16 @@
 # Disaster Response Pipeline Project
 This project was prepared as part of the Udacity Data Scientist nanodegree programme. It was used to classify disaster response messages through machine learning. The data was provided by Figure Eight. 
 
-###ETL
+### ETL
 The first part of the project is the Extract, Transform, and Load process. Here, we read the dataset, cleaned the data, and then stored it in a SQLite database.
 
-###Machine Learning Pipeline
+### Machine Learning Pipeline
 For the machine learning portion, we split the data into a training set and a test set. Then, we created a machine learning pipeline that uses NLTK, as well as scikit-learn's Pipeline and GridSearchCV to output a final model that uses the message column to predict classifications for 36 categories (multi-output classification). Finally, we exported the model to a pickle file.
 
-###Python Scripts
+### Python Scripts
 After complete the notebooks for the ETL and machine learning pipeline, we needed to transfer the work into Python scripts, process_data.py and train_classifier.py.
 
-###Flask App
+### Flask App
 In the last step, we display the results in a Flask web app. 
 
 ## Content
@@ -32,9 +32,9 @@ In the last step, we display the results in a Flask web app.
 > python app/run.py
 
 ## Screenshots
-This is the frontpage:
-![Alt text](https://github.com/eduardodsaraujo/Disaster-Response-Pipelines/blob/master/Screenshot1.png?raw=true "Screenshot1")
+The frontpage:
+![Alt text](https://github.com/eduardodsaraujo/DisasterResponsePipeline/blob/master/Screenshot1.png?raw=true"Screenshot1")
 
-By inputting a phrase, you can check its category:
-![Alt text](https://github.com/eduardodsaraujo/Disaster-Response-Pipelines/blob/master/Screenshot2.png?raw=true "Screenshot2")
+By inputting a phrase, you can check its categories:
+![Alt text](https://github.com/eduardodsaraujo/DisasterResponsePipeline/blob/master/Screenshot2.png?raw=true"Screenshot2")
 
